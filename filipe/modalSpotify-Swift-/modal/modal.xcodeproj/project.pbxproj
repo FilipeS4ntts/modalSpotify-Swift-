@@ -14,6 +14,8 @@
 		DCDCAEE62DEF16060069A543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDCAEE42DEF16060069A543 /* Main.storyboard */; };
 		DCDCAEE82DEF16080069A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDCAEE72DEF16080069A543 /* Assets.xcassets */; };
 		DCDCAEEB2DEF16080069A543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDCAEE92DEF16080069A543 /* LaunchScreen.storyboard */; };
+		DCFCF0ED2E0ACD5D008AF8C9 /* modal in Resources */ = {isa = PBXBuildFile; fileRef = DCFCF0EC2E0ACD5D008AF8C9 /* modal */; };
+		DCFCF0EF2E0ACF30008AF8C9 /* LibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFCF0EE2E0ACF30008AF8C9 /* LibraryScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DCDCAEE72DEF16080069A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCDCAEEA2DEF16080069A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCDCAEEC2DEF16080069A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFCF0EC2E0ACD5D008AF8C9 /* modal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = modal; sourceTree = "<group>"; };
+		DCFCF0EE2E0ACF30008AF8C9 /* LibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		DCDCAEDD2DEF16060069A543 /* modal */ = {
 			isa = PBXGroup;
 			children = (
+				DCFCF0EE2E0ACF30008AF8C9 /* LibraryScreen.swift */,
 				DCDCAEDE2DEF16060069A543 /* AppDelegate.swift */,
 				DCDCAEE02DEF16060069A543 /* SceneDelegate.swift */,
 				DCDCAEE22DEF16060069A543 /* ViewController.swift */,
@@ -66,6 +71,7 @@
 				DCDCAEE92DEF16080069A543 /* LaunchScreen.storyboard */,
 				DCDCAEEC2DEF16080069A543 /* Info.plist */,
 				DC6F075D2DF85F42007030B9 /* progress.swift */,
+				DCFCF0EC2E0ACD5D008AF8C9 /* modal */,
 			);
 			path = modal;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				DCDCAEEB2DEF16080069A543 /* LaunchScreen.storyboard in Resources */,
 				DCDCAEE82DEF16080069A543 /* Assets.xcassets in Resources */,
+				DCFCF0ED2E0ACD5D008AF8C9 /* modal in Resources */,
 				DCDCAEE62DEF16060069A543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				DCDCAEDF2DEF16060069A543 /* AppDelegate.swift in Sources */,
 				DC6F075E2DF85F42007030B9 /* progress.swift in Sources */,
 				DCDCAEE12DEF16060069A543 /* SceneDelegate.swift in Sources */,
+				DCFCF0EF2E0ACF30008AF8C9 /* LibraryScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
